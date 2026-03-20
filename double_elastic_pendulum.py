@@ -157,7 +157,7 @@ x_ball_prev_prev = x_ball
 number_of_coils = 20
 
 
-ball1 = Ball(width/2, height/2, [0, 0], m, "red")
+ball1 = Ball(width/2+100, height/2-100, [0, 0], m, "red")
 ball2 = Ball(ball1.x, ball1.y+50, [0, 0], m, "green")
 
 spring_up = Spring(width/2, 100, coils=number_of_coils, k=k, x_ech=ball1.x, y_ech=ball1.y)
